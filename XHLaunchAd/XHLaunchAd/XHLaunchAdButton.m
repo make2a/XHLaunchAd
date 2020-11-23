@@ -145,7 +145,7 @@
             break;
         case SkipTypeTimeText:{
             self.hidden = NO;
-            self.timeLab.text = [NSString stringWithFormat:@"%ld %@",duration,SkipTitle];
+            self.timeLab.text = [NSString stringWithFormat:@"%@ %ld",SkipTitle,duration];
         }
             break;
         case SkipTypeRoundTime:{
